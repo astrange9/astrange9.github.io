@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
+#menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-0 .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-0 .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#features1-1 .mbr-section-title .mbr-header__text {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  color: #252525;
+}
+#features1-1 P {
+  color: #000000;
+}
+#features1-1 .mbr-section__col .mbr-header__text {
+  color: #000000;
+}
+#contacts2-2 P {
+  color: #faaf40;
+}
+#contacts2-2 UL {
+  color: #f7da64;
+}
+
+#menu-3 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-3.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-3 .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-3 .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#contacts2-4 P {
+  color: #faaf40;
+}
+#contacts2-4 UL {
+  color: #f7da64;
+}
+
+#slider-k H1 {
+  color: #000000;
+  text-align: center;
+}
+#slider-k P {
+  color: #fac51c;
+  text-align: center;
+}
+#menu-b .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-b.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-b .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-b .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#contacts2-c P {
+  color: #faaf40;
+}
+#contacts2-c UL {
+  color: #f7da64;
+}
+
+#menu-e .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-e.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-e .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-e .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#contacts2-f P {
+  color: #faaf40;
+}
+#contacts2-f UL {
+  color: #f7da64;
+}
+
+#menu-g .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-g.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-g .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-g .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#contacts2-h P {
+  color: #faaf40;
+}
+#contacts2-h UL {
+  color: #f7da64;
+}
