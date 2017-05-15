@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 21,
+    "uniqCompNum": 27,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -75,7 +75,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn-parent\"></span>Members</a></li>"
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">ABOUT US</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
         },
         {
           "_tags": [
@@ -88,7 +88,7 @@
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "font-size": "36px",
-              "color": "#252525"
+              "color": "#28324e"
             },
             "P": {
               "color": "#000000"
@@ -99,7 +99,7 @@
           },
           "_anchor": "features1-1",
           "_params": {
-            "paddingTop": 3,
+            "paddingTop": "4",
             "paddingBottom": "3",
             "bgImageRadio": true,
             "parallax": true,
@@ -122,11 +122,10 @@
             "showButtons": true
           },
           "headerAlign": "left",
-          "header": "Golden Sheaf Reginonal Park",
+          "header": "Golden Sheaf Park",
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
-              "active": true,
               "src": "@PROJECT_PATH@/assets/images/136-600x600.png",
               "class": "mbr-figure__img",
               "width": 600,
@@ -144,11 +143,13 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
               "linkInNewWindow": false,
-              "name": "info",
+              "name": "android",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "color": "#faaf40"
+              "size": "100",
+              "color": "#faaf40",
+              "active": true,
+              "newWindow": false
             }
           },
           "title1": "CampSites",
@@ -156,14 +157,13 @@
           "button1": "<a data-app-btn=\"true\" href=\"Campground.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/camping-table-600x600.png",
+              "src": "@PROJECT_PATH@/assets/images/camping%20table-600x600.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -172,12 +172,13 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
               "linkInNewWindow": false,
-              "name": "website-theme",
+              "name": "info",
               "family": "MobiriseIcons",
               "link": "DayUse.html",
-              "size": 0,
+              "size": "100",
               "color": "#faaf40",
-              "newWindow": false
+              "newWindow": false,
+              "active": true
             }
           },
           "title2": "Day Use",
@@ -200,12 +201,13 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
               "linkInNewWindow": false,
-              "name": "chat",
+              "name": "smile-face",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "color": "#000000",
-              "active": true
+              "size": "100",
+              "color": "#fac51c",
+              "active": true,
+              "newWindow": false
             }
           },
           "title3": "Facilities",
@@ -219,8 +221,7 @@
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -229,11 +230,13 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
               "linkInNewWindow": false,
-              "name": "mobirise",
+              "name": "calendar",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
-              "color": "#faaf40"
+              "size": "100",
+              "color": "#faaf40",
+              "active": true,
+              "newWindow": false
             }
           },
           "title4": "Rules and Regulations",
@@ -285,6 +288,14 @@
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#faaf40"
+            },
+            "UL": {
+              "color": "#f7da64"
+            }
+          },
           "_anchor": "contacts2-2",
           "_params": {
             "paddingTop": "3",
@@ -305,15 +316,53 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>",
-          "_styles": {
-            "P": {
-              "color": "#faaf40"
-            },
-            "UL": {
-              "color": "#f7da64"
-            }
-          }
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-n",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/goldensheafpark/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Mobirise\"><i class=\"socicon socicon-github\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-behance\" title=\"Behance\" target=\"_blank\" href=\"https://www.behance.net/Mobirise\"><i class=\"socicon socicon-behance\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-android\" title=\"Google Play\" target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.mobirise.mobirise\"><i class=\"socicon socicon-android\"></i></a>"
+        },
+        {
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-l",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "youtube": "",
+            "facebook": "goldensheafpark",
+            "twitter": "",
+            "google": "",
+            "postToLoad": "3",
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f"
+          },
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg"
         }
       ]
     },
@@ -588,13 +637,21 @@
           },
           "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn-parent\"></span>Members</a></li>"
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#faaf40"
+            },
+            "UL": {
+              "color": "#f7da64"
+            }
+          },
           "_anchor": "contacts2-4",
           "_params": {
             "paddingTop": "3",
@@ -615,15 +672,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>",
-          "_styles": {
-            "P": {
-              "color": "#faaf40"
-            },
-            "UL": {
-              "color": "#f7da64"
-            }
-          }
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
         }
       ]
     },
@@ -639,6 +688,11 @@
             "Theme"
           ],
           "_name": "content4",
+          "_styles": {
+            "P": {
+              "color": "#28324e"
+            }
+          },
           "_anchor": "content4-j",
           "_params": {
             "paddingTop": 3,
@@ -785,12 +839,7 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_styles": {
-            "P": {
-              "color": "#28324e"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -798,6 +847,16 @@
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#fac51c",
+              "text-align": "center"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": "0",
@@ -842,17 +901,7 @@
             "showBullets": true
           },
           "_anchor": "slider-k",
-          "articleLayout": false,
-          "_styles": {
-            "H1": {
-              "color": "#000000",
-              "text-align": "center"
-            },
-            "P": {
-              "color": "#fac51c",
-              "text-align": "center"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_tags": [
@@ -954,13 +1003,21 @@
           },
           "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn-parent\"></span>Members</a></li>"
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#faaf40"
+            },
+            "UL": {
+              "color": "#f7da64"
+            }
+          },
           "_anchor": "contacts2-c",
           "_params": {
             "paddingTop": "3",
@@ -981,15 +1038,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>",
-          "_styles": {
-            "P": {
-              "color": "#faaf40"
-            },
-            "UL": {
-              "color": "#f7da64"
-            }
-          }
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
         }
       ]
     },
@@ -1050,13 +1099,21 @@
           },
           "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn-parent\"></span>Members</a></li>"
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#faaf40"
+            },
+            "UL": {
+              "color": "#f7da64"
+            }
+          },
           "_anchor": "contacts2-f",
           "_params": {
             "paddingTop": "3",
@@ -1077,15 +1134,7 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>",
-          "_styles": {
-            "P": {
-              "color": "#faaf40"
-            },
-            "UL": {
-              "color": "#f7da64"
-            }
-          }
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
         }
       ]
     },
@@ -1146,13 +1195,21 @@
           },
           "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
-          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn-parent\"></span>Members</a></li>"
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#faaf40"
+            },
+            "UL": {
+              "color": "#f7da64"
+            }
+          },
           "_anchor": "contacts2-h",
           "_params": {
             "paddingTop": "3",
@@ -1173,7 +1230,124 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
+        }
+      ]
+    },
+    "AboutUs.html": {
+      "settings": {
+        "title": "About Us",
+        "meta_descr": "Description of the park and organization"
+      },
+      "components": [
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-q",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#cccccc",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "EASY TO USE!",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>About</p><p>We are a recreational area and camp ground near Medicine Hat, Alberta which provides overnight camping sites for tents, trailers and motor homes.</p><p>General Information</p><p>We are a non-profit, self funded organization of recreational campers with lots on the shores of Rattlesnake Lake which is a short 25 minute drive from Medicine Hat, Alberta on paved roads.</p><p><br></p><p>We provide overnight camping sites for tents, trailers and motor homes. Firewood is available as well as a dump station.</p><p><br></p><p>Our oasis on the prairies with mature trees and grassed camp sites and fire pits is open between April 15 and October 15 yearly, as weather permits. Overflow camping w/o a fire pit is provided on busy weekends during the season.</p><p><br></p><p>We have electrical and non-electrical sites which are available on a first come - first serve bases. You will find showers and flush toilets situated through the park for your convenience.</p><p><br></p><p>Also, there are two group camp sites available for group functions such as anniversaries, birthdays, weddings and family reunions with fully appointed camp kitchens and group camping that can be reserved for any occasion.</p><p><br></p><p>Along with a sandy beach and two popular children's playgrounds for campers and day trippers alike, there is fishing from our shores and a boat launch for those who enjoy activities on the water.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#fac51c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#faaf40"
+            },
+            ".mbr-navbar__items a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-o",
+          "_params": {
+            "color": "#fac51c",
+            "hamburgerColor": "#faaf40",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wheatsheaf-96x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-success\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Golden Sheaf Park</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\">Campsites</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"DayUse.html\">Day Use</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"Facilities.html\">Facilities</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"RulesRegs.html\">Rules &amp; Regs</a></li>",
+          "buttons": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">ABOUT US</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"Campground.html\" data-toolbar=\"-mbrBtnMove\">Future</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
           "_styles": {
             "P": {
               "color": "#faaf40"
@@ -1181,7 +1355,28 @@
             "UL": {
               "color": "#f7da64"
             }
-          }
+          },
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gsp-2017-04-23-0082-2000x1333.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#7c706b",
+            "googleMap": {
+              "address": "Golden Sheaf Park\ncounty of forty mile, alberta canada",
+              "placeId": "ChIJVVVlsEIsE1MRLfWTI3f-Yv0",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002<br><br><br>Some Photos are from&nbsp;<a href=\"https://clipartfox.com/\" class=\"text-warning\">clipartfox.com</a>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://40mile.ca/\" class=\"text-warning\">County of 40 Mile</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://mobirise.comhttp://www.city.medicine-hat.ab.ca/\" class=\"text-warning\">City of Medicine Hat</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"http://www.tourismmedicinehat.com/\" class=\"text-warning\">Atractions</a> in the area</li></ul>"
         }
       ]
     }

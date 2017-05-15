@@ -17,7 +17,7 @@
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
-  color: #252525;
+  color: #28324e;
 }
 #features1-1 P {
   color: #000000;
@@ -116,5 +116,38 @@
   color: #faaf40;
 }
 #contacts2-h UL {
+  color: #f7da64;
+}
+
+#content5-q .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #000000;
+}
+#content5-q .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-q .mbr-article {
+  color: #fff;
+}
+#content5-q .mbr-article P {
+  color: #000000;
+}
+#menu-o .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-o.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-o .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-o .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+}
+#contacts2-p P {
+  color: #faaf40;
+}
+#contacts2-p UL {
   color: #f7da64;
 }
