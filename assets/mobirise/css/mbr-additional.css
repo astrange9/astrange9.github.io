@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 
 
 #menu-0 .mbr-brand__name {
@@ -12,6 +14,7 @@
 }
 #menu-0 .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #features1-1 .mbr-section-title .mbr-header__text {
   text-align: center;
@@ -24,6 +27,7 @@
 }
 #features1-1 .mbr-section__col .mbr-header__text {
   color: #000000;
+  font-family: 'Open Sans', sans-serif;
 }
 #contacts2-2 P {
   color: #faaf40;
@@ -43,6 +47,7 @@
 }
 #menu-3 .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #contacts2-4 P {
   color: #faaf40;
@@ -73,6 +78,7 @@
 }
 #menu-b .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #contacts2-c P {
   color: #faaf40;
@@ -92,6 +98,7 @@
 }
 #menu-e .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #contacts2-f P {
   color: #faaf40;
@@ -111,6 +118,7 @@
 }
 #menu-g .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #contacts2-h P {
   color: #faaf40;
@@ -144,10 +152,31 @@
 }
 #menu-o .mbr-navbar__items a {
   font-family: 'Oswald', sans-serif;
+  font-size: 13px;
 }
 #contacts2-p P {
   color: #faaf40;
 }
 #contacts2-p UL {
+  color: #f7da64;
+}
+
+#menu-s .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-s.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-s .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-s .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+}
+#contacts2-t P {
+  color: #faaf40;
+}
+#contacts2-t UL {
   color: #f7da64;
 }
