@@ -180,3 +180,23 @@
 #contacts2-t UL {
   color: #f7da64;
 }
+
+#menu-y .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-y.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#menu-y .mbr-navbar__hamburger {
+  color: #faaf40;
+}
+#menu-y .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+}
+#contacts2-z P {
+  color: #faaf40;
+}
+#contacts2-z UL {
+  color: #f7da64;
+}
